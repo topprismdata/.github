@@ -62,7 +62,6 @@ Next Project starts from a higher baseline
 - `agent-nurture-framework` — a general methodology for project-driven agent capability development.
 - `skill-tester` — a quality and trigger-evaluation gate for reusable agent skills.
 - `notebook-knowledge-distillation` — source-to-skill knowledge distillation with validation.
-- `topprismwiki` — evidence-governed knowledge infrastructure for enterprise AI agents.
 
 ---
 
