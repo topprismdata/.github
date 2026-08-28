@@ -17,6 +17,11 @@ top or in a clearly labeled status section:
 | Boundary | What does the evidence not prove, and what does the repository not do? |
 | Relations | Which repositories are related, and is the relation dependency, consumer, sibling, parent case or reference only? |
 
+Every original code or research repository should also include a minimal
+`CITATION.cff` containing only verified title, author and repository URL. Add
+version, DOI, paper or deployment claims only when they are explicitly
+available and maintained.
+
 ## Role-specific sections
 
 - **Customer Decision / Insight**: user question, inputs/outputs, decision boundary, human review.
