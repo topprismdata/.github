@@ -1,0 +1,211 @@
+schema_version: 1
+updated: 2026-08-28
+purpose: >-
+  Machine-readable navigation for TopPrism public repositories. This registry
+  records declared roles and evidence boundaries; it is not a strategic-priority
+  ranking and does not claim that all repositories form one runtime.
+
+vocabulary:
+  systems:
+    - customer-decision
+    - native-ai
+    - decision-science
+    - reference
+  lifecycles:
+    - applied
+    - research
+    - framework
+    - internal-utility
+    - learning
+    - upstream-reference
+    - profile
+  relation_types:
+    - parent-case
+    - consumer
+    - adapter
+    - sibling
+    - reference-only
+
+repositories:
+  topprismdata:
+    system: profile
+    role: public-profile
+    lifecycle: profile
+    public_role: evidence-index
+  .github:
+    system: reference
+    role: governance
+    lifecycle: profile
+    public_role: repository-governance
+  prism-ontology:
+    system: customer-decision
+    role: semantic-contract
+    lifecycle: framework
+    public_role: business-world-model
+    relations:
+      - {type: consumer, repository: mousheng-outlet-insight}
+  bge-entity-match:
+    system: customer-decision
+    role: entity-resolution
+    lifecycle: applied
+    public_role: business-world-model
+  spatial-decision-intelligence:
+    system: customer-decision
+    role: spatial-trust-and-readiness
+    lifecycle: applied
+    public_role: business-world-model
+    relations:
+      - {type: adapter, repository: market-partition}
+      - {type: adapter, repository: visit-scheduling-optimizer}
+      - {type: adapter, repository: open-dispatch}
+  market-partition:
+    system: customer-decision
+    role: deterministic-market-geometry
+    lifecycle: applied
+    public_role: business-world-model
+  themed-street-engine:
+    system: customer-decision
+    role: commercial-corridor-discovery
+    lifecycle: research
+    public_role: business-world-model
+  mousheng-outlet-insight:
+    system: customer-decision
+    role: traceable-outlet-insight
+    lifecycle: applied
+    public_role: insight-component
+    relations:
+      - {type: consumer, repository: prism-ontology}
+      - {type: sibling, repository: visit-scheduling-optimizer}
+  sales-resource-allocation-framework:
+    system: customer-decision
+    role: dealer-territory-decision-framework
+    lifecycle: applied
+    public_role: integrated-system
+    relations:
+      - {type: adapter, repository: market-partition}
+      - {type: adapter, repository: visit-scheduling-optimizer}
+  visit-scheduling-optimizer:
+    system: customer-decision
+    role: recurring-visit-planning
+    lifecycle: applied
+    public_role: decision-engine
+  open-dispatch:
+    system: customer-decision
+    role: delivery-dispatch
+    lifecycle: applied
+    public_role: decision-engine
+    relations:
+      - {type: sibling, repository: logistics-dispatch-clustering}
+  logistics-dispatch-clustering:
+    system: customer-decision
+    role: dispatch-behavior-learning
+    lifecycle: research
+    public_role: decision-engine-research
+    relations:
+      - {type: sibling, repository: open-dispatch}
+  agentic-warehouse-engine:
+    system: decision-science
+    role: warehouse-reconfiguration-research
+    lifecycle: research
+    public_role: research
+  fashion-lifecycle-pricing:
+    system: decision-science
+    role: lifecycle-pricing-research
+    lifecycle: research
+    public_role: research
+
+  agent-nurture-framework:
+    system: native-ai
+    role: capability-governance-protocol
+    lifecycle: framework
+    public_role: protocol
+    relations:
+      - {type: consumer, repository: cultivating-ml-agent}
+      - {type: consumer, repository: skill-tester}
+      - {type: consumer, repository: notebook-knowledge-distillation}
+      - {type: consumer, repository: three-layer-wisdom-extraction}
+  cultivating-ml-agent:
+    system: native-ai
+    role: project-driven-capability-formation
+    lifecycle: internal-utility
+    public_role: capability-formation
+    relations:
+      - {type: parent-case, repository: kaggle-store-sales}
+      - {type: parent-case, repository: kaggle-ps-s6e4}
+  notebook-knowledge-distillation:
+    system: native-ai
+    role: source-to-skill-intake
+    lifecycle: internal-utility
+    public_role: capability-formation
+    relations:
+      - {type: consumer, repository: skill-tester}
+  skill-tester:
+    system: native-ai
+    role: skill-evaluation-gate
+    lifecycle: internal-utility
+    public_role: evaluation
+  three-layer-wisdom-extraction:
+    system: native-ai
+    role: knowledge-abstraction-research
+    lifecycle: research
+    public_role: research
+  topprismwiki:
+    system: native-ai
+    role: evidence-governed-knowledge-layer
+    lifecycle: applied
+    public_role: knowledge-infrastructure
+  3-ai-debate:
+    system: native-ai
+    role: multi-model-deliberation
+    lifecycle: internal-utility
+    public_role: employee-utility
+  auto-receipt:
+    system: native-ai
+    role: employee-expense-workflow
+    lifecycle: internal-utility
+    public_role: employee-utility
+  hf-agents-skill:
+    system: native-ai
+    role: local-inference-access
+    lifecycle: internal-utility
+    public_role: infrastructure-utility
+  kaggle-store-sales:
+    system: native-ai
+    role: time-series-capability-case
+    lifecycle: learning
+    public_role: learning-evidence
+    relations:
+      - {type: parent-case, repository: cultivating-ml-agent}
+  kaggle-ps-s6e4:
+    system: native-ai
+    role: tabular-capability-case
+    lifecycle: learning
+    public_role: learning-evidence
+    relations:
+      - {type: parent-case, repository: cultivating-ml-agent}
+
+  autogluon:
+    system: reference
+    role: upstream-automl-reference
+    lifecycle: upstream-reference
+    public_role: upstream
+  autogluon-assistant:
+    system: reference
+    role: upstream-agentic-ml-reference
+    lifecycle: upstream-reference
+    public_role: upstream
+  flint-chart:
+    system: reference
+    role: upstream-visualization-reference
+    lifecycle: upstream-reference
+    public_role: upstream
+  knowledge-catalog:
+    system: reference
+    role: upstream-knowledge-reference
+    lifecycle: upstream-reference
+    public_role: upstream
+  ml-knowledge-graph:
+    system: reference
+    role: upstream-knowledge-graph-reference
+    lifecycle: upstream-reference
+    public_role: upstream
