@@ -58,3 +58,19 @@ Each original repository should keep its status and evidence current when a
 release, benchmark, deployment boundary or major dependency changes. The
 organization profile should link to repositories; it should not duplicate every
 repository's detailed claim.
+
+## Directory structure policy
+
+- Keep the repository root for `README.md`, license and citation files, package
+  metadata, `topprism.yaml`, and the declared primary entry point only.
+- Put design notes, research reports, plans, progress snapshots and historical
+  decisions in `docs/`, with a local `docs/README.md` when the directory has
+  more than one document.
+- Put reusable implementation in `src/` (or the repository's established
+  package directory), runnable utilities in `scripts/`, tests in `tests/`, and
+  examples in `examples/`.
+- Put generated reports and datasets in `outputs/` or `data/`; do not add dated
+  experiment artifacts to the repository root.
+- Keep conventional agent or project configuration files such as `SKILL.md`,
+  `AGENTS.md`, and `CLAUDE.md` at the root when the tool expects that location.
+- Do not reorganize upstream forks unless their upstream project is changed.
