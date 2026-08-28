@@ -76,6 +76,7 @@ Use these descriptions when a page needs a one-line introduction:
 ## Canonical links
 
 - GitHub profile: <https://github.com/topprismdata/topprismdata>
+- Public evidence cases: [`EVIDENCE.md`](EVIDENCE.md)
 - Repository map: [`PORTFOLIO.yaml`](PORTFOLIO.yaml)
 - Shared README contract: [`README_CONTRACT.md`](README_CONTRACT.md)
 - Company website: <https://www.topprismdata.com/>

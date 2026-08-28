@@ -13,4 +13,5 @@ it must not become a second, drifting brand narrative.
 
 See [`README_CONTRACT.md`](README_CONTRACT.md) for the shared repository README
 contract, [`CANONICAL.md`](CANONICAL.md) for shared TopPrism terminology, and
-[`PORTFOLIO.yaml`](PORTFOLIO.yaml) for the machine-readable repository map.
+[`EVIDENCE.md`](EVIDENCE.md) for selected public evidence cases. The
+machine-readable repository map is in [`PORTFOLIO.yaml`](PORTFOLIO.yaml).

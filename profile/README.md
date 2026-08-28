@@ -7,8 +7,9 @@
 TopPrism builds two compounding intelligence loops.
 
 Use [`CANONICAL.md`](../CANONICAL.md) for the shared company and capability
-vocabulary. The spatial capability is one part of the broader Business World
-Model, not the company-level name.
+vocabulary and [`EVIDENCE.md`](../EVIDENCE.md) for selected public evidence
+cases. The spatial capability is one part of the broader Business World Model,
+not the company-level name.
 
 ---
 
