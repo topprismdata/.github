@@ -1,8 +1,20 @@
 # TopPrism Repository README Contract
 
 This contract defines the shared information structure for TopPrism public
-repositories. It does not force every project to use the same voice, language,
-or architecture diagram.
+repositories. Projects can keep domain-specific terminology and architecture,
+but their language entry points must be predictable.
+
+## Language policy
+
+- Public code, research and learning repositories use **English as the primary
+  README language**, with a concise Chinese overview near the top.
+- China-facing products and knowledge repositories may use **Chinese as the
+  primary README language**, with a concise English overview near the top.
+- If a repository has `README_CN.md`, `README_EN.md` or `README.zh-CN.md`, the
+  language links must be reciprocal and visible near the top of each entry.
+- Every top-level README declares `Language / 语言` within its first 15 lines.
+- Technical terms, code, API names and data fields remain in their verified
+  source language. Full translations require maintainer review.
 
 ## Required information
 
