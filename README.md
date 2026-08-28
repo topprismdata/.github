@@ -1,5 +1,9 @@
 # .github
 
+<p align="center">
+  <img src="assets/brand/topprism-github-hero.png" alt="TopPrism dual-prism visual" width="100%" />
+</p>
+
 TopPrism profile and repository-governance materials.
 
 The current GitHub account is a personal `User` account, so the public profile
