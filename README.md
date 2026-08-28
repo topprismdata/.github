@@ -12,5 +12,5 @@ is rendered from the root `README.md` in `topprismdata/topprismdata`. The
 it must not become a second, drifting brand narrative.
 
 See [`README_CONTRACT.md`](README_CONTRACT.md) for the shared repository README
-contract and [`PORTFOLIO.yaml`](PORTFOLIO.yaml) for the machine-readable
-repository map.
+contract, [`CANONICAL.md`](CANONICAL.md) for shared TopPrism terminology, and
+[`PORTFOLIO.yaml`](PORTFOLIO.yaml) for the machine-readable repository map.

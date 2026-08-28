@@ -1,8 +1,14 @@
 # TopPrism
 
-### Decision intelligence for the physical business world — and Native AI systems that compound organizational capability.
+> **Language / 语言:** English primary · 中文定义 included below。
+
+### AI-powered decision intelligence for consumer-goods businesses — and Native AI systems that compound organizational capability.
 
 TopPrism builds two compounding intelligence loops.
+
+Use [`CANONICAL.md`](../CANONICAL.md) for the shared company and capability
+vocabulary. The spatial capability is one part of the broader Business World
+Model, not the company-level name.
 
 ---
 
